@@ -1,0 +1,45 @@
+    #navcalendar-container {
+        display: inline-block; /* Center the container */
+        text-align: center; /* Center the content */
+        width: 100%; /* Full width */
+        
+    }
+
+    .navcalendar-table {
+        display: inline-block; /* Ensure the table can be centered */
+        border-collapse: collapse;
+        font-size: 11px; /* Adjusted font size */
+        margin-left: 9px;
+    }
+
+    .navcalendar-table th,
+    .navcalendar-table td {
+        border: 1px solid #ddd;
+        padding: 4px; /* Adjusted padding */
+        text-align: center;
+        color: #ddd;
+    }
+
+    .navcalendar-table th {
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+    #calendar h2{
+        font-size: 24px; /* Adjust the font size as needed */
+        margin-bottom: 10px; /* Optional: Add some space below the month name */
+        text-align: center;
+        color: #ddd;
+    }
+
+
+    .highlighted-date {
+        background-color: #8d2929; /* Change background color as needed */
+        font-weight: bold; /* Optionally make the font bold */
+        /* Add any additional styling here */
+    }
+
+    #toggleCheckbox {
+        transform: scale(9.5); /* Change the scale factor as needed */
+      }
+      
